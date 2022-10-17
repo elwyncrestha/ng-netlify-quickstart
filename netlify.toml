@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/builder/*"
-  to = "https://elwyncrestha.github.io/angular-pwa-demo/:splat"
+  to = "https://fluffy-manatee-151860.netlify.app/:splat"
   status = 200
   force = true
 
