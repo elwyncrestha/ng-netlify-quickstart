@@ -1,3 +1,4 @@
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,7 +15,9 @@ import { TestComponent } from './test/test.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    [Location, {provide: LocationStrategy, useClass: HashLocationStrategy}]
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
