@@ -6,6 +6,7 @@
   from = "/builder/*"
   to = "https://elwyncrestha.github.io/angular-pwa-demo/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
