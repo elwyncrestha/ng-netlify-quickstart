@@ -3,8 +3,8 @@
   publish="dist/angular-quickstart"
 
 [[redirects]]
-  from = "/builder"
-  to = "https://elwyncrestha.github.io/angular-pwa-demo/"
+  from = "/builder/*"
+  to = "https://elwyncrestha.github.io/angular-pwa-demo/:splat"
   status = 200
 
 [[redirects]]
